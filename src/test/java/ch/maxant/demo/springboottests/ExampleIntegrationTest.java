@@ -20,7 +20,7 @@ public class ExampleIntegrationTest {
     private MockMvc mockMvc;
 
     @Test
-    public void ping() throws Exception {
+    public void test() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(content().string("Using test bean"));
