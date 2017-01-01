@@ -8,3 +8,5 @@ Tests using a mock service implementation when doing an integration test with `M
 See `ExampleIntegrationTest` and how it references `TestConfiguration` which uses `@Primary` 
 to override the service implementation. The assertion in the test expects a different value 
 than the real service implementation returns.
+
+See https://groups.google.com/forum/#!topic/wildfly-swarm/1jV82wtjs0Y
